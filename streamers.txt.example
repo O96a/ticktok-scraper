@@ -1,0 +1,8 @@
+# TikTok Streamers Configuration
+# Add one username per line (without @)
+# Lines starting with # are comments
+
+# Examples (replace with actual usernames):
+username1
+username2
+username3

@@ -1,0 +1,44 @@
+# Enhanced TikTok Scraper Requirements
+# Core dependencies only (no API/Docker dependencies)
+
+# TikTok Live Streaming
+TikTokLive>=6.5.3
+
+# Async support
+asyncio-dgram>=2.1.2
+aiofiles>=24.1.0
+
+# HTTP client for potential future enhancements
+httpx>=0.28.1
+requests>=2.32.4
+
+# WebSocket support (used by TikTokLive)
+websockets>=15.0.1
+websockets-proxy>=0.1.3
+
+# Data handling
+python-dateutil>=2.9.0
+python-socks>=2.7.1
+
+# Protocol support
+protobuf>=6.31.1
+betterproto>=2.0.0b7
+grpclib>=0.4.8
+
+# Utility libraries
+beautifulsoup4>=4.13.4
+charset-normalizer>=3.4.2
+certifi>=2025.6.15
+urllib3>=2.5.0
+six>=1.17.0
+soupsieve>=2.7
+idna>=3.10
+multidict>=6.5.0
+
+# Development and testing (optional)
+pytest>=8.2.2
+pytest-asyncio>=0.23.6
+pytest-mock>=3.12.0
+
+# Performance monitoring (optional)
+psutil>=5.9.0

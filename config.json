@@ -1,0 +1,14 @@
+{
+  "base_delay": 15,
+  "max_delay": 1800,
+  "rate_limit_cooldown": 3600,
+  "global_rate_limit_duration": 1800,
+  "per_streamer_rate_limit": 3600,
+  "max_concurrent_connections": 2,
+  "min_connection_interval": 5,
+  "pre_connection_delay": [2, 5],
+  "connection_timeout": 45,
+  "retry_attempts": 3,
+  "backoff_multiplier": 2.0,
+  "jitter_range": [0.8, 1.2]
+}
