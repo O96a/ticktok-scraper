@@ -88,6 +88,14 @@ This project includes scripts for running the scraper continuously on Windows.
 - **Stop:** `Stop-ScheduledTask -TaskName "TikTokScraperService"`
 - **Remove:** `Unregister-ScheduledTask -TaskName "TikTokScraperService"`
 
+### 24/7 Operation (Linux)
+
+For running the scraper as a persistent service on Linux, a `systemd` service is recommended.
+
+- **Setup and Management:**
+  - A setup script (`setup_service.sh`) is provided to automate the installation.
+  - For detailed instructions on setting up, managing, and removing the service, please see the [24/7 Setup Guide for Linux](./24_7_SETUP_GUIDE.md).
+
 ## Output
 
 - **Scraped Data**: The captured comments are saved in `.txt` files in the `output/` directory. Each file is named with the streamer's username and a timestamp (`tiktok-rawdata-[username]-YYYYMMDD_HHMMSS.txt`).
