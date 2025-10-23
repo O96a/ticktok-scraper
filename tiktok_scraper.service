@@ -1,0 +1,15 @@
+[Unit]
+Description=TikTok Scraper Service
+After=network.target
+
+[Service]
+Type=simple
+User=__USER__
+Group=__GROUP__
+WorkingDirectory=__ABSOLUTE_PATH__
+ExecStart=__ABSOLUTE_PATH__/venv/bin/python __ABSOLUTE_PATH__/tiktok_scraper.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
