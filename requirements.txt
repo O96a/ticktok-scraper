@@ -2,7 +2,7 @@
 # Core dependencies only (no API/Docker dependencies)
 
 # TikTok Live Streaming
-TikTokLive>=6.5.3
+TikTokLive~=6.4.5
 
 # Async support
 asyncio-dgram>=2.1.2
